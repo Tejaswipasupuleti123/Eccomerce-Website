@@ -1,0 +1,107 @@
+ /* Custom CSS */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #f8f9fa !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #333;
+}
+
+.navbar-nav .nav-link {
+    color: #555;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+footer {
+    background:red;
+    padding: 40px 0;
+}
+
+footer .text-uppercase {
+    font-weight: bold;
+}
+
+footer .text-dark:hover {
+    color: #007bff !important;
+    text-decoration: none;
+}
+
+footer .bg-dark {
+    background-color: red !important;
+}
+
+footer .text-white {
+    color: black !important;
+}
+
+
+/* Logo Area */
+.logo{
+
+}
+
+.footer-area{
+background:black;
+}
+
+.footer-area h5{
+color:white!important;
+}
+.footer-area p{
+color:white!important;
+}
+
+.footer-area a{
+color:white!important;
+}
+
+
+.theme-button{
+background-color:red;
+border:0px;
+border-radius:0px;
+padding:10px 50px;
+}
+
+.theme-button:hover{
+background-color:blue;
+padding:10px 50px;
+}
+
+
+.common-theme-button{
+background-color:red;
+border:0px;
+border-radius:0px;
+}
+
+.common-theme-button:hover{
+background-color:blue;
+}
+
+.hero-left-text{
+margin-top:100px;
+}
+
+
+.card-img-top{
+height:250px;
+padding:20px;
+}
+.card{
+margin-top:20px;
+margin-bottom:20px;
+}
+
+.cart-imge{
+width:100px;
+height:100px;
+}

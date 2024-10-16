@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Order Summary</title>
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet"/>
+</head>
+<body>
+<div class="container mt-5">
+    <h2>Order Summary</h2>
+    <div th:if="${success}" class="alert alert-success" th:text="${success}"></div>
+
+    <p>Your order has been placed successfully. Thank you for shopping with us!</p>
+
+    <a href="/" class="btn btn-primary">Continue Shopping</a>
+</div>
+
+<script th:src="@{/js/bootstrap.bundle.min.js}"></script>
+</body>
+</html>
